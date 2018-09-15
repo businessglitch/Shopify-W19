@@ -1,0 +1,24 @@
+{
+  "name": "grepo-server",
+  "version": "1.0.0",
+  "description": "Server for Shopify's WebApp Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Fahad Hayat",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "es6-promise": "^4.2.5",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

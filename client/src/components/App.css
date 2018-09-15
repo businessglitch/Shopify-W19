@@ -1,0 +1,26 @@
+#repositories-section {
+	float:left;
+	width: 50%;
+	min-height: 100%;
+	flex-direction: column;
+}
+
+#favourites-section {
+	float:left;
+	width: 50%;
+	background-color: #F5ECFD;
+	height: 100%;
+	display: flex;
+}
+
+body {
+  height: 100% !important;
+  margin: 0 auto !important;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#body-section {
+	height: 100%;
+	position: absolute;
+    width: 100%;
+}

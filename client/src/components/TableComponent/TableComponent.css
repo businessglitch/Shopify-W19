@@ -1,0 +1,26 @@
+.table {
+	padding-left: 20px;
+	width: 95%;
+}
+
+.table-header {
+	text-align: left;
+}
+
+.table-cell {
+	padding-top: 10px;
+	width: 34%;
+}
+
+.cell-link--repo {
+	text-decoration: none;
+	color: #000;
+}
+
+.cell-link--repo:hover {
+	color: blue;
+}
+
+.cell-link--button {
+	color: #763AEB;
+}
