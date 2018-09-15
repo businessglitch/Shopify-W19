@@ -4,7 +4,7 @@
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
 	margin-left: 15px;
     background-color: #763AEB;
-    color: #ffffff;
+    color: #FFF;
     border-width: 0;
     border-style: solid;
     border-color: transparent;
@@ -17,6 +17,12 @@
     -webkit-transition: 150ms ease;
     transition: 150ms ease;
 }
+.button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 25px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 5px 25px 0 rgba(0,0,0,0.25);
+    background-color: #202E78;
+}
 
 .input {
 	display: inline-block;
@@ -26,13 +32,13 @@
     height: 15px;
     margin: 0 0 15px;
     padding: 1em 1em;
-    color: #30373b;
+    color: #30373B;
     font-size: 1em;
     -webkit-box-shadow: 0 0 0 1px #c4cdd5;
-    box-shadow: 0 0 0 1px #c4cdd5;
+    box-shadow: 0 0 0 1px #C4CDD5;
     border: 0;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #FFF;
     -webkit-transition: padding 150ms;
     transition: padding 150ms;
     -webkit-appearance: none;
