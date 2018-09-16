@@ -1,16 +1,21 @@
 import React from 'react';
 
-const access_token  = '5802921c01c717ef534d7e26603019136d459d8b';
-
 /* Function call to grab repositories 
 	@input: search_term, callback function
 */
 
 const fetchRepos = (search_term, callback)  => {
-	const url = `https://api.github.com/search/repositories?q=${search_term}&per_page=10&access_token=${access_token}`;
 	let clean_repositories = [];
 
-	fetch(url)
+	const options  = {
+		headers: {
+            "Content-Type": "application/json; charset=utf-8"
+		},
+		method: "POST",
+		body: JSON.stringify({value: search_term})
+	}
+
+	fetch('/api/getRepos', options)
 	.then( res => res.json() )
 	.then( repositories => {
 		 clean_repositories = repositories.items;
