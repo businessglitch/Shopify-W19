@@ -12,7 +12,7 @@
     "client": "cd client && npm start",
     "client-install": "cd client && npm install",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm install --dev && npm run build"
   },
   "author": "Fahad Hayat",
   "license": "MIT",
