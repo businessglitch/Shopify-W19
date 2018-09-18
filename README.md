@@ -11,7 +11,9 @@ Assumptions
 
 Installation
 ------------
-To run the on local machine
+## The web-app is hosted on heroku server: https://quiet-island-61639.herokuapp.com/
+
+To run the on local host
 
 ``` sh
 # cd Grepo
