@@ -16,7 +16,7 @@ Installation
 To run the on local host
 
 ``` sh
-# cd Grepo
+# cd Shopify-W19
 $ npm install (To intstall server dependencies)
 $ npm run client-install (To install client dependencies)
 $ npm run dev (To run client and server concurrently)
