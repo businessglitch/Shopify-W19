@@ -16,6 +16,7 @@ Installation
 To run the on local host
 
 ``` sh
+$ git clone https://github.com/businessglitch/Shopify-W19.git
 # cd Shopify-W19
 $ npm install (To intstall server dependencies)
 $ npm run client-install (To install client dependencies)
